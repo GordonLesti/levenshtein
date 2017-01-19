@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace GordonLesti\LevenshteinTest;
 
-use \GordonLesti\Levenshtein\Levenshtein;
+use GordonLesti\Levenshtein\Levenshtein;
 
 /**
  * @SuppressWarnings(PHPMD.TooManyPublicMethods)

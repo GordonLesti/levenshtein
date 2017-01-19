@@ -22,7 +22,7 @@ $ composer require gordonlesti/levenshtein
 ## Usage
 
 ``` php
-use \GordonLesti\Levenshtein\Levenshtein;
+use GordonLesti\Levenshtein\Levenshtein;
 ```
 
 With default default costs.
