@@ -8,7 +8,6 @@
 
 Plain PHP implementation of the Levenshtein distance.
 * No 255 characters limit
-* Works with UTF-8
 * Accepts float as custom costs
 
 ## Install
