@@ -73,6 +73,6 @@ class LevenshteinTest extends \PHPUnit_Framework_TestCase
 
     public function testGetDistanceL4L4UTF8()
     {
-        $this->assertSame(1.0, Levenshtein::levenshtein("♫⚓⚓♥", "♫♥⚓♫⚓♫"));
+        $this->assertSame(3.0, Levenshtein::levenshtein("♫⚓⚓♥", "♫♥⚓♫⚓♫"));
     }
 }
