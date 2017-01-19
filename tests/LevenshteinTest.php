@@ -5,6 +5,10 @@ namespace GordonLesti\LevenshteinTest;
 
 use \GordonLesti\Levenshtein\Levenshtein;
 
+/**
+ * @SuppressWarnings(PHPMD.TooManyPublicMethods)
+ * @SuppressWarnings(PHPMD.StaticAccess)
+ */
 class LevenshteinTest extends \PHPUnit_Framework_TestCase
 {
     public function testGetDistanceDefaultCost()
