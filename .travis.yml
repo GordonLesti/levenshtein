@@ -11,10 +11,10 @@ before_script:
     - mkdir -p build/logs
 
 script:
-    - php vendor/bin/phpcs
-    - php vendor/bin/phpmd src/,tests/ text cleancode,codesize,controversial,design,naming,unusedcode
-    - php vendor/bin/phpcpd src/ tests/
-    - php vendor/bin/phpunit
+    - composer phpcs
+    - composer phpmd
+    - composer phpcpd
+    - composer test
 
 after_script:
     - php vendor/bin/coveralls -v
