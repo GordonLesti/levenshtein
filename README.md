@@ -74,5 +74,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-travis]: https://travis-ci.org/GordonLesti/levenshtein
 [link-coveralls]: https://coveralls.io/r/GordonLesti/levenshtein?branch=master
 [link-downloads]: https://packagist.org/packages/gordonlesti/levenshtein
-[link-author]: https://github.com/GordonLesti
+[link-author]: https://gordonlesti.com
 [link-contributors]: ../../contributors
