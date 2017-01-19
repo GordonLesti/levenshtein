@@ -54,7 +54,7 @@ If you discover any security related issues, please email info@gordonlesti.com i
 
 ## Credits
 
-- [:author_name][link-author]
+- [Gordon Lesti][link-author]
 - [All Contributors][link-contributors]
 
 ## License
