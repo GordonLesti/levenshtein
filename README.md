@@ -6,7 +6,10 @@
 [![Coverage Status][ico-coveralls]][link-coveralls]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-Plain PHP implementation of the Levenshtein distance without a limit of 255 characters.
+Plain PHP implementation of the Levenshtein distance.
+* No 255 characters limit
+* Works with UTF-8
+* Accepts float as custom costs
 
 ## Install
 
@@ -28,10 +31,10 @@ With default default costs.
 $levDist = Levenshtein::levenshtein("AC", "ABAA");
 ```
 
-With insert cost `7`, replace cost `9` and delete cost `2`.
+With insert cost `7.7`, replace cost `9.4` and delete cost `2.5`.
 
 ``` php
-$levDist = Levenshtein::levenshtein("ACCB", "BC", 7, 9, 2);
+$levDist = Levenshtein::levenshtein("ACCB", "BC", 7.7, 9.4, 2.5);
 ```
 
 ## Change log
