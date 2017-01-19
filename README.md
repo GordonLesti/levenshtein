@@ -64,10 +64,12 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-version]: https://img.shields.io/packagist/v/gordonlesti/levenshtein.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/GordonLesti/levenshtein/master.svg?style=flat-square
+[ico-coveralls]: https://img.shields.io/coveralls/GordonLesti/levenshtein/master.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/gordonlesti/levenshtein.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/gordonlesti/levenshtein
 [link-travis]: https://travis-ci.org/GordonLesti/levenshtein
+[link-coveralls]: https://coveralls.io/r/GordonLesti/levenshtein?branch=master
 [link-downloads]: https://packagist.org/packages/gordonlesti/levenshtein
 [link-author]: https://github.com/GordonLesti
 [link-contributors]: ../../contributors
