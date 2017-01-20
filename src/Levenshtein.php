@@ -40,7 +40,8 @@ class Levenshtein
         return $matrix[$str1Length][$str2Length];
     }
 
-    private static function multiByteStringToArray(string $str): array {
+    private static function multiByteStringToArray(string $str): array
+    {
         $length = mb_strlen($str);
         $array = [];
         for ($i = 0; $i < $length; $i++) {
