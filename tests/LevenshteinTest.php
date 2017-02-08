@@ -6,13 +6,11 @@ namespace GordonLesti\LevenshteinTest;
 use GordonLesti\Levenshtein\Levenshtein;
 use PHPUnit\Framework\TestCase;
 
-/**
- * @SuppressWarnings(PHPMD.StaticAccess)
- */
 class LevenshteinTest extends TestCase
 {
     /**
      * @dataProvider levenshteintProvider
+     * @SuppressWarnings(PHPMD.StaticAccess)
      */
     public function testLevenshtein(array $args, $result)
     {
